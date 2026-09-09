@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Wedding Invitation</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+
+<body>
+
+<!-- OPENING --> 
+<section class="opening-screen" id="openingScreen"> 
+
+    <div class="opening-content"> 
+        <div class="small-text">YOU ARE CORDIALLY INVITED</div> 
+
+        <div class="ring">♡</div> 
+
+        <h1>Wedding Invitation</h1> 
+
+        <div class="divider">✧ ───── ✧</div> 
+
+        <p> 
+            Join us to celebrate<br> 
+            the beginning of a beautiful journey 
+        </p> 
+
+        <button id="openButton">TAP TO OPEN</button> 
+    </div> 
+
+</section> 
+
+
+<!-- INVITATION PHOTO --> 
+<section class="invitation-section" id="invitationSection"> 
+
+    <img src="flowers.png" alt="Wedding Invitation"> 
+
+    <div class="scroll-down"> 
+        <span>SCROLL DOWN</span> 
+        <div class="arrow">↓</div> 
+    </div> 
+
+</section> 
+
+
+<!-- SCRATCH SECTION --> 
+<section class="scratch-section"> 
+
+    <p class="scratch-title">A LITTLE SURPRISE</p> 
+
+    <h2>SCRATCH TO REVEAL THE DATE</h2> 
+
+    <p class="scratch-subtitle"> 
+        Scratch the heart to reveal our special date 
+    </p> 
+
+    <div class="scratch-heart" id="scratchHeart"> 
+
+        <div class="revealed-date"> 
+            <span>OUR SPECIAL DAY</span> 
+            <strong>10 OCTOBER</strong> 
+            <small>2026</small> 
+        </div> 
+
+        <canvas id="scratchCanvas"></canvas> 
+
+    </div> 
+
+    <p class="scratch-hint">♡ Scratch the heart ♡</p> 
+
+</section> 
+
+<div class="scroll-after-scratch"> 
+    <span>SCROLL DOWN</span> 
+    <div class="scroll-arrow">↓</div> 
+</div> 
+<!-- ========================= 
+     VENUE SECTION 
+========================= -->
+
+<section class="venue-section">
+
+    <p class="venue-small-title">
+        WHERE WE CELEBRATE
+    </p>
+
+    <h2 class="venue-heading">
+        Venue
+    </h2>
+
+    <div class="venue-divider">
+        ♡ ───── ♡
+    </div>
+
+</section>
+
+<script src="script.js"></script> 
+
+</body> 
+</html>
+<div class="map-container">
+
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3401.8851608669934!2d74.31582537402078!3d31.499840248158915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smilano%20aibak%20block%20main%20boulevard%20new%20garden%20town%20lahore!5e0!3m2!1sen!2s!4v1788940885649!5m2!1sen!2s"
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin">
+    </iframe>
+
+</div>
